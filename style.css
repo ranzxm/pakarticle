@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eaeaea;
+    
+}
+
+.container {
+    width: 960px;
+    margin: 100px auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    padding: 15px;
+    position: relative;
+}
+
+.header .ribbon {
+    background-image: url(facebook.png);
+    width: 50px;
+    height: 63px;
+    position: absolute;
+    top: -12px;
+    right: -17px;
+}
+
+.header h2 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.header a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.hero {
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    height: 280px;
+    border-top: 5px solid forestgreen;
+    border-bottom: 5px solid yellow;
+}
+
+.content {
+    box-sizing: border-box;
+    width: 600px;
+    padding: 15px;
+    float: left;
+}
+
+.sidebar {
+    width: 300px;
+    box-sizing: border-box;
+    float: right;
+    padding: 15px;
+}
+
+
+.content h3 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+
+.content p {
+    font-size: 13px;
+    margin-top: 3px;
+    color: #333;
+}
+
+.content a {
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.content .article {
+    margin-top: 30px;
+
+}
+
+.article p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.sidebar h3 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar img {
+    width: 100px;
+    float: left;
+    padding-right: 5px;
+}
+
+.sidebar p {
+    font-size: 13px;
+    line-height: 15px;
+    text-align: justify;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+}
+
+.footer p {
+    font-size: 18px;
+    text-align: center;
+    color: #eaeaea;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS RESET */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
